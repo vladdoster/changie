@@ -106,7 +106,7 @@ func (kc *KindConfig) AutoLevelForChange(cache *TemplateCache, change Change) (s
 	case MajorLevel, MinorLevel, PatchLevel, NoneLevel:
 		return level, nil
 	default:
-		return EmptyLevel, fmt.Errorf("kind %q wit auto config %q: %w", kc.KeyOrLabel(), kc.AutoLevel, ErrInvalidAutoLevel)
+		return EmptyLevel, fmt.Errorf("kind %q with auto config %q: %w", kc.KeyOrLabel(), kc.AutoLevel, ErrInvalidAutoLevel)
 	}
 }
 

@@ -75,7 +75,7 @@ To do this use `go run` on the main file:
 
 `go run main.go new`
 
-Gitlab created a guide for [good changelog entires](https://docs.gitlab.com/ee/development/changelog.html#writing-good-changelog-entries)
+Gitlab created a guide for [good changelog entries](https://docs.gitlab.com/ee/development/changelog.html#writing-good-changelog-entries)
 that can be referenced when writing your body message.
 
 Be sure to commit the generated file to your branch as part of your pull request.

@@ -36,8 +36,8 @@ If you want to contribute through code or documentation, the [Contributing guide
 If you need additional help create an issue or post on discussions.
 
 ## Semantic Version Compatibility
-Changie is focused around the CLI and its configuration options and aims to keep existing CLI commands and options suported in major versions.
-It is possible to use Changie as a dependent package but no support or compability is guaranteed.
+Changie is focused around the CLI and its configuration options and aims to keep existing CLI commands and options supported in major versions.
+It is possible to use Changie as a dependent package but no support or compatibility is guaranteed.
 
 ## License
 Distributed under the [MIT License](LICENSE).

@@ -190,7 +190,7 @@ func (n *New) Run(cmd *cobra.Command, args []string) error {
 			fragmentWriter.WriteString(".yaml")
 			outputFilename := fragmentWriter.String()
 
-			// Sanatize the filename to remove invalid characters such as slashes
+			// Sanitize the filename to remove invalid characters such as slashes
 			replacer := strings.NewReplacer("/", "-", "\\", "-")
 			outputFilename = replacer.Replace(outputFilename)
 
